@@ -1,0 +1,26 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 4] test cases in the current suite
+Test Method:		[hello_test1.restfulBooker.deletebooking]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @04-03-2022 03:09:50.0104 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @04-03-2022 03:09:50.0105 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:50.0105 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/auth" | Content Type: "application/json" | Response Time: "17071ms"]. @04-03-2022 03:09:50.0130 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @04-03-2022 03:09:50.0131 AM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @04-03-2022 03:09:50.0133 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @04-03-2022 03:09:50.0135 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [token]. @04-03-2022 03:09:50.0163 AM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @04-03-2022 03:10:04.0797 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @04-03-2022 03:10:04.0798 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:10:04.0798 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking" | Content Type: "*/*" | Response Time: "14562ms" | URL Arguments: "firstname=ALI&lastname=ZEIDAN"]. @04-03-2022 03:10:04.0825 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @04-03-2022 03:10:04.0826 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @04-03-2022 03:10:04.0829 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [bookingid[0]]. @04-03-2022 03:10:04.0994 AM
+[ReportManager] Response status code: [201], status line: [HTTP/1.1 201 Created] @04-03-2022 03:10:18.0551 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @04-03-2022 03:10:18.0552 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [201] and Actual [201]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:10:18.0552 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "201" | Service URL: "https://restful-booker.herokuapp.com/booking/24" | Content Type: "application/json" | Response Time: "13544ms"]. @04-03-2022 03:10:18.0635 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @04-03-2022 03:10:18.0637 AM
+[ReportManager] Successfully created attachment [API Response - Body] @04-03-2022 03:10:18.0639 AM

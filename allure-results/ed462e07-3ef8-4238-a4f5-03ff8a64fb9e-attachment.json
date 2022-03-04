@@ -1,0 +1,14 @@
+{
+  "booking": {
+    "firstname": "ALI",
+    "additionalneeds": "cocacola",
+    "bookingdates": {
+      "checkin": "2022-01-01",
+      "checkout": "2022-03-03"
+    },
+    "totalprice": 2000,
+    "depositpaid": true,
+    "lastname": "ZEIDAN"
+  },
+  "bookingid": 24
+}

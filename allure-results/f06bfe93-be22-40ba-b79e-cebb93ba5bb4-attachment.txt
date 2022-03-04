@@ -1,0 +1,34 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 4] test cases in the current suite
+Test Method:		[hello_test1.restfulBooker.createbooking]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @04-03-2022 03:09:14.0209 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @04-03-2022 03:09:14.0260 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:14.0272 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking" | Content Type: "application/json" | Response Time: "12028ms"]. @04-03-2022 03:09:15.0834 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @04-03-2022 03:09:15.0836 AM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @04-03-2022 03:09:16.0377 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @04-03-2022 03:09:16.0380 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [bookingid]. @04-03-2022 03:09:16.0415 AM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @04-03-2022 03:09:32.0566 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @04-03-2022 03:09:32.0567 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:32.0567 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/24" | Content Type: "*/*" | Response Time: "16140ms"]. @04-03-2022 03:09:32.0590 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @04-03-2022 03:09:32.0592 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @04-03-2022 03:09:32.0593 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [firstname]. @04-03-2022 03:09:32.0619 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [lastname]. @04-03-2022 03:09:32.0648 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [bookingdates.checkin]. @04-03-2022 03:09:32.0673 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [bookingdates.checkout]. @04-03-2022 03:09:32.0693 AM
+[ReportManager] Verification [ValidateEquals] PASSED. Expected [ALI] and Actual [ALI]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:32.0705 AM
+[ReportManager] Verification [ValidateEquals] PASSED. Expected [ZEIDAN] and Actual [ZEIDAN]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:32.0707 AM
+[ReportManager] Verification [ValidateEquals] PASSED. Expected [2022-01-01] and Actual [2022-01-01]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:32.0708 AM
+[ReportManager] Verification [ValidateEquals] PASSED. Expected [2022-03-03] and Actual [2022-03-03]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:32.0711 AM
+[ReportManager] Comparing the provided API response with the file at this path "src/test/resources/TestJsonFiles/Booking.json", comparison type "EQUALS" @04-03-2022 03:09:32.0716 AM
+[ReportManager] API Action [CompareJSON] successfully performed. With the following test data [src/test/resources/TestJsonFiles/Booking.json]. @04-03-2022 03:09:32.0718 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/TestJsonFiles/Booking.json"]. @04-03-2022 03:09:32.0718 AM
+[ReportManager] File Action [ReadFromFile] successfully performed. With the following test data [File Path: "C:\Users\Ali zeidan\eclipse-workspace\hello_test1\src\test\resources\TestJsonFiles\Booking.json"]. @04-03-2022 03:09:32.0719 AM
+[ReportManager] Assertion [ValidateJSONFileContent] PASSED. Expected [Response data should match the JSON File in this path 'src/test/resources/TestJsonFiles/Booking.json'] and Actual [TRUE]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:09:32.0727 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected JSON Value] @04-03-2022 03:09:32.0730 AM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual JSON Value] @04-03-2022 03:09:32.0735 AM

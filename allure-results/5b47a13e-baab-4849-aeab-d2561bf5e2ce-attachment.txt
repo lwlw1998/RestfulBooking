@@ -1,0 +1,11 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[hello_test1.restfulBooker.getbooking]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @04-03-2022 03:10:31.0192 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @04-03-2022 03:10:31.0193 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @04-03-2022 03:10:31.0193 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/5" | Content Type: "*/*" | Response Time: "12533ms"]. @04-03-2022 03:10:31.0213 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @04-03-2022 03:10:31.0215 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @04-03-2022 03:10:31.0217 AM
